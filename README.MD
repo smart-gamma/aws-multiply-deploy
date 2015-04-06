@@ -1,10 +1,10 @@
-Allow to deploy code via Capistrano to Amazon EC2 instances(dynamic) handled by ASG
+Allow to deploy a code via Capistrano to Amazon EC2 instances(dynamic) handled by Amazon ASG
 
-1. Install capistrano/ec2group:
+1) Install capistrano/ec2group:
 
-gem install capistrano/ec2group
+$sudo gem install capistrano/ec2group
 
-2. add to deploy.rb:
+2) add to deploy.rb:
 
 set :aws_access_key_id, '%yourky%'
 set :aws_secret_access_key, '%yoursecret%'
@@ -15,5 +15,5 @@ group "stSecurity-Web", :web, :app
 
 * stSecurity-Web is Amazon security group attached to web instances
 
-3. deploy:
+3) deploy:
 cap deploy
