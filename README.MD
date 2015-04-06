@@ -7,10 +7,10 @@ $sudo gem install capistrano/ec2group
 2) add to deploy.rb:
 
 set :aws_access_key_id, '%yourky%'<br>
-set :aws_secret_access_key, '%yoursecret%'
-set :aws_params, :region => 'eu-west-1'
-set :aws_pvt_dns, true
-group "stSecurity-Web", :web, :app
+set :aws_secret_access_key, '%yoursecret%'<br>
+set :aws_params, :region => 'eu-west-1'<br>
+set :aws_pvt_dns, true<br>
+group "stSecurity-Web", :web, :app<br>
 
 
 * stSecurity-Web is Amazon security group attached to web instances
