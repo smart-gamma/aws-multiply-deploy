@@ -1,6 +1,6 @@
 Allow to deploy code via Capistrano to Amazon EC2 instances(dynamic) handled by ASG
 
-1.Install capistrano/ec2group:
+1. Install capistrano/ec2group:
 
 gem install capistrano/ec2group
 
