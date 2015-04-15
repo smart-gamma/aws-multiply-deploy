@@ -2,7 +2,7 @@ Allow to deploy a code via Capistrano to Amazon EC2 instances(dynamic) handled b
 
 1) Install capistrano/ec2group:
 
-$sudo gem install capistrano/ec2group
+$sudo gem install capistrano-ec2group
 
 2) add to deploy.rb:
 
